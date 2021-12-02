@@ -13,6 +13,13 @@ class GameScene: SKScene {
    
     override func didMove(to view: SKView) {
         
+        self.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+        
+        let avator1 = SKSpriteNode(imageNamed: "avator1")
+        avator1.setScale(0.5)
+        avator1.position = CGPoint.zero
+        avator1.zPosition = 1.0
+        addChild(avator1)
     }
    
 }
