@@ -22,7 +22,7 @@ class GameScene: SKScene {
         addChild(avator1)
         
         let avator2 = SKSpriteNode(imageNamed: "avator2")
-        avator2.setScale(0.5)
+        avator2.setScale(0.7)
         avator2.position = CGPoint(x: 0, y: 200)
         avator2.zPosition = 1.0
         addChild(avator2)
